@@ -1,19 +1,27 @@
-html, body {
+html, * {
     font-family: 'Heebo', sans-serif; 
     padding: 0; 
     margin: 0; 
     font-size: 16px; 
+    letter-spacing: 0.05em;
 }
+/* all content */
 .wrapper {
-    padding: 0 30px 0 30px; 
+    padding: 40px 30px;  
 }
+h2 {
+    font-size: 1.4em; 
+    font-weight: normal; 
+}
+
 /* styling for title and search bar  */
 .topInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px; 
 }
 .topTitle {
-    font-size: 2.2em; 
+    font-size: 2.65em; 
 }
 .searchBar {
     width: 9em;
@@ -23,4 +31,29 @@ html, body {
     justify-self: end;
     background-color: #F1F1F1; 
     border: none; 
+}
+/* styling for home page content */
+.home-content {
+    display: grid; 
+    grid-row-gap: 20px; 
+}
+.titles {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 15px; 
+}
+.p-title {
+    justify-self: end; 
+    align-self: end; 
+}
+.content-box {
+    height: 100px;
+    width: 100%; 
+    border-radius: 20px;
+    background-color:#F1F1F1; 
+}
+.h3-title {
+    /* background-color: purple;  */
+    padding: 20px 0 0 20px; 
+    font-weight: 500;
 }
