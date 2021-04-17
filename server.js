@@ -1,8 +1,8 @@
 const express = require("express"); 
 const exphbs = require('express-handlebars'); 
 
-const lessons = require("./models/lessons"); 
-const { getAllLessons } = require("./models/lessons"); 
+// const lessons = require("/models/lessons"); 
+// const { getAllLessons } = require("/models/lessons"); 
 
 const app = express(); 
 

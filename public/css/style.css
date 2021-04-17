@@ -1,0 +1,26 @@
+html, body {
+    font-family: 'Heebo', sans-serif; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 16px; 
+}
+.wrapper {
+    padding: 0 30px 0 30px; 
+}
+/* styling for title and search bar  */
+.topInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.topTitle {
+    font-size: 2.2em; 
+}
+.searchBar {
+    width: 9em;
+    height: 2em; 
+    border-radius: 30px;
+    align-self: center;  
+    justify-self: end;
+    background-color: #F1F1F1; 
+    border: none; 
+}
