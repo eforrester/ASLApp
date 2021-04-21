@@ -22,10 +22,24 @@ app.get("/practice", (req, res)=> {
     })
 }); 
 
-// LESSONS
+// EXPLORE
 app.get("/explore", (req, res)=> {
     res.render("explore", {
         title: "Explore", 
+    })
+}); 
+
+// LESSON
+app.get("/lesson", (req, res)=> {
+    res.render("lesson", {
+        title: "Lesson", 
+    })
+}); 
+
+// REVIEW
+app.get("/review", (req, res)=> {
+    res.render("review", {
+        title: "Review", 
     })
 }); 
 
