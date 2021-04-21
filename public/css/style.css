@@ -135,3 +135,33 @@ h3 {
 .h2prac2{
     padding: 30px 0 15px 0; 
 }
+/* explore page  */
+.explore-content {
+    display: grid; 
+    grid-template-rows: repeat(3, 1fr); 
+    grid-row-gap: 20px; 
+    padding-top: 30px; 
+}
+.explore-box {
+    height: 300px; 
+    border-radius: 30px; 
+    background-color: lightgray;
+}
+.explore-title {
+    padding-bottom: 160px; 
+}
+.explore-wrap {
+    padding: 20px; 
+}
+.prog-exp {
+    display: grid; 
+}
+.p-exp {
+    justify-self: end; 
+    font-size: 0.8em;
+}
+/* explore progress */
+.exp {
+    height: 20px;
+    border-radius: 15px; 
+}
