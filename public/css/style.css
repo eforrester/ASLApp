@@ -66,6 +66,36 @@ h3 {
     border-radius: 20px;
     background-color:#F1F1F1; 
 }
+/* background images for abcs - 123s  */
+.content-box {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+.content-box.c1 {
+    background-image: url("/img/ABCS.jpg"); 
+}
+.content-box.c2{
+    background-image: url("/img/123s.jpg"); 
+}
+.home-content-1 h3 {
+    color: white; 
+}
+/* background images for other cards */
+.vertical-box {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+.vertical-box.b1{
+    background-image: url("/img/bearpic.jpg"); 
+}
+.vertical-box.b2{
+    background-image: url("/img/tree.jpg"); 
+}
+.home-content-2 h3 {
+    color: white; 
+}
 .h3-title {
     padding: 20px 0 0 20px; 
 }
@@ -95,7 +125,7 @@ h3 {
     display: grid; 
     border-radius: 20px;
     height: 100px; 
-    background-color:#F1F1F1; 
+    background-color:#2C2C38; 
 }
 .practice-wrap {
     align-self: center; 
@@ -112,25 +142,33 @@ h3 {
 }
 .h3-title.prac{
     padding: 0; 
+    color: white; 
 }
-/* progress bars */
+/* progress bars - all */
 .light {
-    background-color: white; 
+    background-color: #F0F0F3; 
 }
 .dark {
     height: 4px; 
     width: 65%; 
-    background-color: #B7B7C2; 
+    background-color: #FFDB5A; 
 }
 /* top progress bar */
 .lvl {
     border-radius: 15px; 
 }
-.light.lvl {
-    background-color: lightsalmon;
-}
 .dark.lvl {
     height: 20px;
+}
+/* progress bars - content */
+.light.con {
+    background-color: #4F4F4F; 
+}
+.dark.con {
+    background-color: white; 
+}
+.p-progress {
+    color: #C2C2C2; 
 }
 /* second section  */
 .h2prac2{
@@ -139,33 +177,50 @@ h3 {
 /* explore page  */
 .explore-content {
     display: grid; 
-    grid-template-rows: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
     grid-row-gap: 20px; 
     padding-top: 30px; 
 }
 .explore-box {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
     height: 300px; 
     border-radius: 30px; 
-    background-color: lightgray;
 }
 .explore-title {
-    padding-bottom: 150px; 
+    padding-bottom: 120px; 
 }
 .explore-wrap {
-    padding: 20px; 
+    padding: 30px; 
 }
 .prog-exp {
-    display: grid; 
+    display: grid;  
 }
 .p-exp {
     justify-self: end; 
     font-size: 0.8em;
     margin-bottom: 10px; 
+    color: #2C2C38; 
+}
+/* images */
+.explore-box.e1 {
+    background-image: url(/img/greetings.png);
+}
+.explore-box.e2{
+    background-image: url(/img/emotions.jpg);
 }
 /* explore progress */
 .exp {
-    height: 20px;
+    height: 12px;
     border-radius: 15px; 
+}
+/* font colours */
+.h2-ex {
+    color: #72728B; 
+}
+.p-ex {
+    color: #72728B; 
 }
 /* lesson page */
 .img-info {
