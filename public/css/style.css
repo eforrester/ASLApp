@@ -121,6 +121,16 @@ h3 {
     width: 65%; 
     background-color: #B7B7C2; 
 }
+/* top progress bar */
+.lvl {
+    border-radius: 15px; 
+}
+.light.lvl {
+    background-color: lightsalmon;
+}
+.dark.lvl {
+    height: 20px;
+}
 /* second section  */
 .h2prac2{
     padding: 30px 0 15px 0; 
