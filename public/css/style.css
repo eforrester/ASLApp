@@ -5,9 +5,13 @@ html, * {
     font-size: 16px; 
     letter-spacing: 0.05em;
 }
+body {
+   display: flex; 
+   justify-content: center; 
+}
 /* all content */
 .wrapper {
-    padding: 40px 30px;  
+    padding: 40px 30px; 
 }
 h2 {
     font-size: 1.4em; 
@@ -16,7 +20,12 @@ h2 {
 h3 {
     font-weight: 500;
 }
-
+/* footer */
+/* .footer {
+    background-color: aquamarine;
+    height: 50px; 
+    margin-top: -50px; 
+} */
 /* styling for title and search bar  */
 .topInfo {
     display: grid;
@@ -27,13 +36,14 @@ h3 {
     font-size: 2.65em; 
 }
 .searchBar {
-    width: 9em;
+    width: 7em;
     height: 2em; 
     border-radius: 30px;
     align-self: center;  
     justify-self: end;
     background-color: #F1F1F1; 
     border: none; 
+    padding-left: 15px; 
 }
 /* styling for home page content */
 .home-content-1 {
@@ -73,4 +83,45 @@ h3 {
 }
 .v-h3-title {
     padding-top: 20px; 
+}
+/* practice page */
+.practice-content-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px; 
+}
+.practice-box {
+    display: grid; 
+    border-radius: 20px;
+    height: 100px; 
+    background-color:#F1F1F1; 
+}
+.practice-wrap {
+    align-self: center; 
+    padding: 10px;
+}
+.titles.prac{
+    padding: 0 0 15px 0;
+    align-items: center;
+    width: 100%;
+}
+.p-progress {
+    justify-self: end; 
+    font-size: 0.8em;
+}
+.h3-title.prac{
+    padding: 0; 
+}
+/* progress bars */
+.light {
+    background-color: white; 
+}
+.dark {
+    height: 4px; 
+    width: 65%; 
+    background-color: #B7B7C2; 
+}
+/* second section  */
+.h2prac2{
+    padding: 30px 0 15px 0; 
 }
