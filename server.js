@@ -43,7 +43,7 @@ app.get("/review", (req, res)=> {
     })
 }); 
 
-const PORT = 3000; 
+const PORT = process.env.PORT; 
 
 app.listen(PORT,()=>{
     console.log(`Web Server is up and running, port ${PORT}`);    
