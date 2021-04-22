@@ -34,19 +34,21 @@
             <div class="inner-shadow"></div>
             <div class="screen">
                 <!-- Content goes here -->
-                <div class="wrapper">
-                    <div class="topInfo">
-                        <h3 class="topTitle">{{title}}</h3>
-                        <input type="text" placeholder="Search" class="searchBar">
+                <div class="screenwrapper">
+                    <div class="wrapper">
+                        <div class="topInfo">
+                            <h3 class="topTitle">{{title}}</h3>
+                            <input type="text" placeholder="Search" class="searchBar">
+                        </div>
+                        <section>
+                            {{{body}}}
+                        </section>
                     </div>
-                    <section>
-                        {{!-- <footer class="fouder">
-                            <a href="/">Home</a>
-                            <a href="/explore">Explore</a>
-                            <a href="/practice">Practice</a>
-                        </footer> --}}
-                        {{{body}}}
-                    </section>
+                    <footer class="fouder">
+                        <a href="/">Home</a>
+                        <a href="/explore">Explore</a>
+                        <a href="/practice">Practice</a>
+                    </footer>
                 </div>
             </div>
         </div>
